@@ -15,6 +15,7 @@
 		9B4C9533291772A000E7FC23 /* chimeup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9B4C9531291772A000E7FC23 /* chimeup.mp3 */; };
 		9B4C953B291777F000E7FC23 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4C953A291777F000E7FC23 /* OnboardingView.swift */; };
 		9B4C953D2917780400E7FC23 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4C953C2917780400E7FC23 /* HomeView.swift */; };
+		9B4C953F29178AAA00E7FC23 /* CircleGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4C953E29178AAA00E7FC23 /* CircleGroupView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		9B4C95392917773F00E7FC23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		9B4C953A291777F000E7FC23 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		9B4C953C2917780400E7FC23 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		9B4C953E29178AAA00E7FC23 /* CircleGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleGroupView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 		9B4C95372917751F00E7FC23 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				9B4C953E29178AAA00E7FC23 /* CircleGroupView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B4C953F29178AAA00E7FC23 /* CircleGroupView.swift in Sources */,
 				9B4C95232917719B00E7FC23 /* ContentView.swift in Sources */,
 				9B4C953D2917780400E7FC23 /* HomeView.swift in Sources */,
 				9B4C953B291777F000E7FC23 /* OnboardingView.swift in Sources */,
@@ -325,6 +329,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -354,6 +359,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
